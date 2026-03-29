@@ -2,11 +2,13 @@
 
 ## Pattern
 
+```js
 [
   'the response should be empty array',
   then.shouldBeEmptyArrayResponse,
   'Check a value in the body response that it is empty array'
 ]
+```
 
 ## Structure
 
@@ -17,4 +19,5 @@
 ## Rule
 
 - one step = one responsibility
-- reusable
+- wording should be clear
+- keep steps reusable

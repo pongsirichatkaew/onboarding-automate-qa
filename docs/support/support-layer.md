@@ -2,22 +2,18 @@
 
 ## Structure
 
+```text
 support/
-
-api/
-  request.js
-  response.js
-  auth0.js
-  iam.js
-
-db/
-utils/
-world.js
+  api/
+  db/
+  utils/
+  world.js
+```
 
 ## Responsibility
 
-- API → request / response
-- Auth → token
-- DB → data
-- Utils → helpers
-- World → shared state
+- API → request and response handling
+- Auth → token and authentication helpers
+- DB → data setup and verification
+- Utils → shared helper functions
+- World → shared scenario state

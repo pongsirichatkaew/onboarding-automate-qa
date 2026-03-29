@@ -9,7 +9,7 @@ Provide end-to-end API testing using feature-based scenarios.
 - feature-driven testing
 - reusable step functions
 - web runner execution
-- support layer (api / auth / db)
+- support layer for API, auth, DB, and utilities
 
 ## Key idea
 

@@ -20,6 +20,11 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -40,12 +45,8 @@ const config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'E2E Docs',
-      logo: {
-        alt: 'E2E Docs Logo',
-        src: 'img/logo.svg',
-      },
       items: [
-        { to: 'docs/intro', label: 'Docs', position: 'left' }
+        { to: '/docs/getting-started/start-here', label: 'Docs', position: 'left' },
       ],
     },
     footer: {

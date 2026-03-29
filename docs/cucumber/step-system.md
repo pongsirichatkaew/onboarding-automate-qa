@@ -2,8 +2,10 @@
 
 ## Structure
 
+```text
 functions/ → implementation
 steps/     → mapping
+```
 
 ## Flow
 
@@ -11,5 +13,6 @@ Feature → Step → Function
 
 ## Rule
 
-Step must be thin  
-Logic must be reusable
+- steps should be thin
+- logic should be reusable
+- heavy logic belongs in functions

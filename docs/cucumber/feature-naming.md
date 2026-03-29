@@ -1,12 +1,12 @@
-# Feature Pattern
+# Feature Naming
 
-## Format
+## File pattern
 
 ```text
 <method>_<resource>+<variant>.feature
 ```
 
-## Example
+## Examples
 
 ```text
 get_advisors.feature
@@ -18,3 +18,4 @@ get_advisors+{advisorid}.feature
 
 - keep naming consistent
 - reflect API behavior
+- avoid random names

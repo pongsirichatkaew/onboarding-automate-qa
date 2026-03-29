@@ -4,19 +4,34 @@ import Link from '@docusaurus/Link';
 
 const cards = [
   {
-    title: 'Project Overview',
-    description: 'Understand what this E2E project covers and why it exists.',
-    to: 'docs/overview/project-overview',
+    title: '🚀 Start Here',
+    description: 'Begin onboarding and understand the project quickly',
+    to: '/docs/getting-started/start-here',
   },
   {
-    title: 'Start Here',
-    description: 'Follow the onboarding path for new QA automation contributors.',
-    to: 'docs/onboarding/start-here',
+    title: '📘 Project Overview',
+    description: 'Understand system structure and purpose',
+    to: '/docs/project/overview',
   },
   {
-    title: 'Cucumber Standards',
-    description: 'Learn how scenarios and step definitions should be written.',
-    to: 'docs/cucumber/gherkin-writing-standard',
+    title: '▶️ Scenario Flow',
+    description: 'See how a scenario runs end-to-end',
+    to: '/docs/project/scenario-execution-flow',
+  },
+  {
+    title: '🥒 Gherkin Best Practices',
+    description: 'Learn how to write clean scenarios',
+    to: '/docs/cucumber/gherkin-best-practices',
+  },
+  {
+    title: '⚙️ Step System',
+    description: 'Understand step and function structure',
+    to: '/docs/cucumber/step-system',
+  },
+  {
+    title: '🧩 Support Layer',
+    description: 'API, auth, DB, and shared utilities',
+    to: '/docs/support/support-layer',
   },
 ];
 
@@ -24,28 +39,38 @@ export default function Home() {
   return (
     <Layout
       title="E2E Automation Docs"
-      description="Documentation portal for E2E automation project"
+      description="OpenAPI E2E documentation portal"
     >
       <main className="homepage">
+        
+        {/* HERO */}
         <section className="hero-banner">
           <div className="container">
             <p className="hero-kicker">QA Automation Platform</p>
             <h1 className="hero-title">E2E Automation Docs</h1>
             <p className="hero-subtitle">
-              Clean documentation for onboarding, Cucumber standards, and project structure.
+              Documentation for OpenAPI E2E, step system, and web runner execution
             </p>
 
             <div className="hero-actions">
-              <Link className="button button--primary button--lg" to="docs/intro">
-                Open Docs
+              <Link
+                className="button button--primary button--lg"
+                to="/docs/getting-started/start-here"
+              >
+                Start Here
               </Link>
-              <Link className="button button--secondary button--lg" to="docs/onboarding/start-here">
-                Start Onboarding
+
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/project/overview"
+              >
+                View Overview
               </Link>
             </div>
           </div>
         </section>
 
+        {/* CARDS */}
         <section className="home-section container">
           <div className="card-grid">
             {cards.map((card) => (
@@ -56,6 +81,7 @@ export default function Home() {
             ))}
           </div>
         </section>
+
       </main>
     </Layout>
   );

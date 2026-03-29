@@ -3,32 +3,27 @@ const sidebars = {
   docs: [
     {
       type: 'category',
-      label: '🚀 Onboarding',
+      label: '🚀 Getting Started',
       items: [
-        'onboarding/start-here',
-        'onboarding/how-to-run',
+        'getting-started/start-here',
+        'getting-started/how-to-run',
       ],
     },
     {
       type: 'category',
-      label: '📘 Overview',
+      label: '📘 Project',
       items: [
-        'overview/project-overview',
-        'overview/repository-structure',
-      ],
-    },
-    {
-      type: 'category',
-      label: '▶️ Runner',
-      items: [
-        'runner/how-run-scenario',
+        'project/overview',
+        'project/repository-structure',
+        'project/scenario-execution-flow',
       ],
     },
     {
       type: 'category',
       label: '🥒 Cucumber',
       items: [
-        'cucumber/feature-pattern',
+        'cucumber/gherkin-best-practices',
+        'cucumber/feature-naming',
         'cucumber/step-system',
         'cucumber/script-catalog',
       ],

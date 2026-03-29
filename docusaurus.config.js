@@ -5,11 +5,12 @@ const config = {
   tagline: 'Documentation portal for Cucumber-based E2E project',
   favicon: 'img/favicon.ico',
 
-  url: 'http://localhost',
-  baseUrl: '/',
+  url: 'https://pongsirichatkaew.github.io/',
+  baseUrl: '/onboarding-automate-qa',
 
-  organizationName: 'your-org',
-  projectName: 'e2e-docs',
+
+  organizationName: 'pongsirichatkaew',
+  projectName: 'onboarding-automate-qa',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

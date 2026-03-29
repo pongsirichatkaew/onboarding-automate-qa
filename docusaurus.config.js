@@ -45,7 +45,7 @@ const config = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/docs', label: 'Docs', position: 'left' },
+        { to: 'docs/intro', label: 'Docs', position: 'left' }
       ],
     },
     footer: {

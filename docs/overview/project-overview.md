@@ -2,25 +2,15 @@
 
 ## Purpose
 
-This project automates end-to-end validation for critical integration flows.
+Provide end-to-end API testing using feature-based scenarios.
 
-## Scope
+## System
 
-- API-level end-to-end testing
-- integration validation
-- executable scenarios with Cucumber
+- feature-driven testing
+- reusable step functions
+- web runner execution
+- support layer (api / auth / db)
 
-## Out of Scope
+## Key idea
 
-- unit testing
-- visual UI testing
-- performance testing
-
-## Key Parts
-
-- feature files
-- step definitions
-- world context
-- services
-- clients
-- reports
+Feature → Step → Function → Support

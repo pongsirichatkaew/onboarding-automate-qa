@@ -42,7 +42,7 @@ const config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/fwd-logo.png',
     navbar: {
       title: 'E2E Docs',
       items: [

@@ -8,7 +8,7 @@ mkdir -p docs/support
 cat > docs/intro.md << 'EOF'
 # E2E Automation Docs
 
-OpenAPI E2E testing system with web runner.
+Platform Integration E2E testing system with web runner.
 
 ## Core flow
 

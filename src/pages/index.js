@@ -56,12 +56,12 @@ export default function Home() {
   return (
     <Layout
       title="E2E Automation Docs"
-      description="OpenAPI E2E documentation portal"
+      description="Platform Integration E2E documentation portal"
     >
       <main className="homePage">
         <section className="heroSection">
           <div className="container heroSection__inner">
-            <div className="heroBadge">OpenAPI E2E</div>
+            <div className="heroBadge">Platform Integration E2E</div>
 
             <h1 className="heroTitle">E2E Automation Docs</h1>
 
